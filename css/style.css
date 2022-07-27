@@ -1,0 +1,122 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+
+
+
+/*************** UTILITY ***************/
+
+.flex {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+/*************** header with upgrade ***************/
+
+header {
+    position: fixed;
+    background-color: rgb(2, 2, 43);
+    width: 100vw;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** central section with content ***************/
+
+
+.center-section {
+    background-color: rgb(30, 34, 97);
+    width: 100vw;
+    height: 100vh;
+    padding-left: 6.5rem;
+    padding-top: 4rem;
+}
+
+
+.center-menu {
+    color: gray;
+    font-size: .4rem;
+    justify-content: center;
+}
+
+.center-menu>h4 {
+    margin: 0;
+    margin-right: .5rem;
+}
+
+.recently-played {
+    color: white;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.card {
+    text-align: center;
+    margin-right: .5rem;
+}
+
+.recent-album>div>h3 {
+    font-size: .5rem;
+}
+
+.recent-album>div>p {
+    font-size: .4rem;
+}
+
+.title-recent {
+    margin-bottom: 1rem;
+
+}
+
+
+/*************** sx side nav with home, src etc ***************/
+
+
+aside {
+    background-color: black;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+
+
+
+
+
+
+
+/*************** foother with player ***************/
+
+footer {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(65, 64, 64);
+}
