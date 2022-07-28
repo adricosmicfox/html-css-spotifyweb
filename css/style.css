@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
-    font-family: ;
+    font-family: "Poppins";
 }
 
 
@@ -14,11 +14,17 @@
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 img {
     max-width: 100%;
 }
 
-
+.column {
+    flex-direction: column;
+}
 
 
 
@@ -26,16 +32,23 @@ img {
 /*************** header with upgrade ***************/
 
 header {
-    position: fixed;
-    background-color: rgb(2, 2, 43);
+    opacity: 80%;
+    position: absolute;
+    background-color: #080B12;
     width: 100vw;
-    height: 60px;
+    height: 50px;
+    align-items: center;
 }
 
 
 
-
-
+header a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
 
 
 
@@ -49,11 +62,11 @@ header {
 
 
 .center-section {
-    background-color: rgb(30, 34, 97);
+    background-color: #141922;
     width: 100vw;
     height: 100vh;
-    padding-left: 6.5rem;
-    padding-top: 4rem;
+    padding-left: 8rem;
+    padding-top: 4.3rem;
 }
 
 
@@ -68,40 +81,116 @@ header {
     margin-right: .5rem;
 }
 
-.recently-played {
+.recently-played,
+.created-for-you {
     color: white;
-    margin-top: 1rem;
-    flex-direction: column;
+    margin-top: .7rem;
 }
 
 .card {
     text-align: center;
+    max-width: 7rem;
     margin-right: .5rem;
 }
 
-.recent-album>div>h3 {
+h3 {
     font-size: .5rem;
+    margin-top: .1rem;
+    margin-bottom: .2rem;
+    line-height: .6rem;
+    font-weight: 500;
 }
 
 .recent-album>div>p {
     font-size: .4rem;
+    color: gray;
 }
 
-.title-recent {
-    margin-bottom: 1rem;
+.title-recent,
+.title-created {
+    font-size: .5rem;
+    margin-bottom: .6rem;
+    margin-left: 0;
+}
 
+.created-album {
+    justify-content: space-between;
 }
 
 
-/*************** sx side nav with home, src etc ***************/
+
+
+
+
+
+
+
+
+
+
+/*************** black sx side nav with home, src etc ***************/
 
 
 aside {
     background-color: black;
-    width: 100px;
+    width: 120px;
     height: 100vh;
     position: fixed;
     left: 0;
+    color: white;
+}
+
+
+.spotify-logo--text {
+    color: white;
+    width: 5rem;
+    margin-top: .5rem;
+
+}
+
+.black-box-sx {
+    margin: 0;
+    padding-left: .8rem;
+}
+
+.black-box-sx h3 {
+    font-size: .4rem;
+    margin-top: .5rem;
+    color: gray;
+}
+
+.black-box-sx h2 {
+    font-size: .5rem;
+    margin: 0;
+    color: gray;
+    margin-left: .3rem;
+}
+
+
+.playlist-black-sx {}
+
+.playlist-list {
+    margin: 0;
+}
+
+.gray-square {
+    background-color: gray;
+    height: 1rem;
+    width: 1rem;
+    margin: 0;
+}
+
+.fa-plus {
+    color: #080B12;
+}
+
+.fa-2xs {
+    color: gray;
+
+}
+
+.black-menu {
+    margin-bottom: 1rem;
 }
 
 
@@ -118,5 +207,5 @@ footer {
     bottom: 0;
     width: 100vw;
     height: 60px;
-    background-color: rgb(65, 64, 64);
+    background-color: #282828;
 }
