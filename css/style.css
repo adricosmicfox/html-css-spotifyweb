@@ -75,13 +75,13 @@ header a {
 
 .center-menu {
     color: gray;
-    font-size: .8rem;
+    font-size: .9rem;
     justify-content: center;
 }
 
 .center-menu>h4 {
     margin: 0;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .recently-played,
@@ -157,65 +157,66 @@ aside {
 
 .spotify-logo--text {
     color: white;
-    width: 5rem;
-
+    width: 9rem;
+    margin-bottom: 2rem;
 
 }
 
 .black-box-sx {
-    margin: 0;
-    padding-left: .8rem;
-    padding-top: .8rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .black-box-sx h3 {
-    font-size: .4rem;
+    font-size: .9rem;
     margin-top: .5rem;
     color: gray;
 }
 
 .black-box-sx h2 {
-    font-size: .5rem;
-    margin: 0;
+    font-size: 1rem;
     color: gray;
     margin-left: .3rem;
 }
 
+.playlist-black-sx {
+    width: 100%;
+}
 
-.playlist-black-sx {}
-
-
-
-.playlist-list {
-    margin: 0;
+#playlist-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 .gray-square {
     background-color: gray;
-    height: 1rem;
-    width: 1rem;
-    margin: 0;
+    height: 2rem;
+    width: 2rem;
 }
 
 .fa-plus {
     color: #080B12;
 }
 
-.fa-2xs {
+.fa-xl {
     color: gray;
-
+    margin-right: .5rem;
 }
 
 .black-menu {
     margin-bottom: 1rem;
-
 }
 
 .function {
-    width: 100%;
-    justify-content: center;
+    align-items: center;
 }
 
+.playlist-list>h3 {
+    margin-top: 1.3rem;
+}
+
+.bottom-black-box {}
 
 
 
