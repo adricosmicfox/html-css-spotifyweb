@@ -38,6 +38,7 @@ header {
     width: 100vw;
     height: 100px;
     align-items: center;
+    justify-content: end;
 }
 
 
@@ -45,9 +46,10 @@ header {
 header a {
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 5px 20px;
+    border-radius: 140px;
+    padding: 10px 57px;
     text-decoration: none;
+    margin-right: 3rem;
 }
 
 
