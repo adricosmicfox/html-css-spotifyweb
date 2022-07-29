@@ -165,6 +165,8 @@ aside {
 .black-box-sx {
     padding-left: 1.5rem;
     padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    height: 100%;
 }
 
 .black-box-sx h3 {
@@ -216,7 +218,42 @@ aside {
     margin-top: 1.3rem;
 }
 
-.bottom-black-box {}
+.bottom-black-box {
+    align-items: baseline;
+    margin-top: 33rem;
+}
+
+.fa-download {
+    color: gray;
+    margin-right: .5rem;
+}
+
+.hr-download {
+    background-color: gray;
+    height: 1px;
+    border: none;
+}
+
+#profile-img {
+    border-radius: 50px;
+    background-color: gray;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
+}
+
+.profile-row {
+    margin-top: .6rem;
+    align-items: center;
+}
+
+.profile-row>h3 {
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+
 
 
 
