@@ -93,7 +93,7 @@ header a {
 
 .card {
     text-align: center;
-    max-width: 14rem;
+    width: calc(100% / 7);
     margin-right: .8rem;
     margin-top: 1rem;
 }
@@ -159,8 +159,16 @@ aside {
     color: white;
     width: 9rem;
     margin-bottom: 2rem;
-
 }
+
+.spotify-small {
+    filter: invert(100%);
+    width: 2.3rem;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+
 
 .black-box-sx {
     padding-left: 1.5rem;
@@ -243,7 +251,7 @@ aside {
 }
 
 .profile-row {
-    margin-top: .6rem;
+    margin-top: .4rem;
     align-items: center;
 }
 
@@ -267,4 +275,85 @@ footer {
     width: 100vw;
     height: 100px;
     background-color: #282828;
+}
+
+.playing-now {
+    width: 30%;
+    height: 50%;
+}
+
+.playing-now>img {
+    height: 100%;
+    margin-right: .6rem;
+}
+
+
+
+
+
+/*********** MEDIA QUERY *************/
+
+
+
+
+
+/*** MEDIUM screen ***/
+@media screen and (max-width: 878px) {
+    .card {
+        width: calc(100% / 5);
+    }
+}
+
+
+
+
+
+
+/*** SMALL screen ***/
+@media screen and (max-width: 639px) {
+    .card {
+        width: calc(100% / 3);
+    }
+}
+
+
+
+
+
+/*** EXTRA-SMALL screen ***/
+@media screen and (max-width: 552px) {
+    .card {
+        width: calc(100% / 3);
+    }
+
+    .center-section {
+        padding-left: 6rem;
+    }
+
+    aside {
+        width: 80px;
+    }
+
+    .black-menu>div>h3 {
+        display: none;
+    }
+
+    .playlist-black-sx {
+        display: none;
+    }
+
+    .bottom-black-box>h3 {
+        display: none;
+    }
+
+    .spotify-logo--text {
+        display: none;
+    }
+
+    .spotify-small {
+        display: block;
+    }
+
+
+
 }
