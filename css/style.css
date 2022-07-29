@@ -26,6 +26,9 @@ img {
     flex-direction: column;
 }
 
+.row {
+    flex-direction: row;
+}
 
 
 
@@ -72,6 +75,10 @@ header a {
     padding-bottom: 10rem;
 }
 
+.recent-album {
+    padding-right: .5rem;
+}
+
 
 .center-menu {
     color: gray;
@@ -93,9 +100,9 @@ header a {
 
 .card {
     text-align: center;
-    width: calc(100% / 7);
-    margin-right: .8rem;
-    margin-top: 1rem;
+    width: calc(100% / 6);
+    max-width: 15rem;
+    padding: .2rem;
 }
 
 h3 {
@@ -167,8 +174,6 @@ aside {
     margin-bottom: 2rem;
     display: none;
 }
-
-
 
 .black-box-sx {
     padding-left: 1.5rem;
@@ -300,8 +305,17 @@ footer {
 /*** MEDIUM screen ***/
 @media screen and (max-width: 878px) {
     .card {
-        width: calc(100% / 5);
+        width: calc(100% / 4);
     }
+
+    .center-menu>h4 {
+        margin-top: 1rem;
+    }
+
+    .recent-album {
+        flex-wrap: wrap;
+    }
+
 }
 
 
@@ -312,8 +326,16 @@ footer {
 /*** SMALL screen ***/
 @media screen and (max-width: 639px) {
     .card {
-        width: calc(100% / 3);
+        width: calc(100% / 2);
     }
+
+    .center-menu>h4 {
+        margin-top: 1rem;
+    }
+
+
+
+
 }
 
 
@@ -323,15 +345,20 @@ footer {
 /*** EXTRA-SMALL screen ***/
 @media screen and (max-width: 552px) {
     .card {
-        width: calc(100% / 3);
+        width: calc(100% / 2);
     }
 
     .center-section {
-        padding-left: 6rem;
+        padding-left: 5.5rem;
     }
 
     aside {
-        width: 80px;
+        width: 70px;
+    }
+
+    .black-box-sx {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .black-menu>div>h3 {
@@ -352,6 +379,18 @@ footer {
 
     .spotify-small {
         display: block;
+    }
+
+    .fa-xl {
+        margin-top: 2rem;
+    }
+
+    .black-box-sx>hr {
+        display: none;
+    }
+
+    .profile-row>h3 {
+        display: none;
     }
 
 
