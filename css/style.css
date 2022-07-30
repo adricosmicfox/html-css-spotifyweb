@@ -292,13 +292,20 @@ footer {
     height: 100%;
     border: solid 3px red;
     align-items: center;
-    padding-left: .5rem;
+    padding-left: .8rem;
     color: white;
 }
 
 .playing-now h5 {
     color: gray;
-    font-size: .7rem;
+    font-size: .8rem;
+    margin-right: 2rem;
+}
+
+.fa-heart,
+.fa-folder {
+    color: gray;
+    margin-left: 1rem;
 }
 
 
@@ -313,6 +320,7 @@ footer {
     height: 100%;
     border: solid 3px red;
     align-items: center;
+    justify-content: center;
 }
 
 
