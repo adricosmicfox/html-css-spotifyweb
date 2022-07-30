@@ -308,12 +308,10 @@ footer {
     margin-left: 1rem;
 }
 
-
 .playing-now>img {
     height: 60%;
     margin-right: .6rem;
 }
-
 
 .player-commands {
     width: calc(100% / 3);
@@ -322,6 +320,54 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+.player-icons {
+    color: white;
+}
+
+.play-button {
+    border: 2px solid white;
+    border-radius: 80px;
+    padding-left: .4rem;
+    padding-right: .2rem;
+}
+
+.player-buttons>div {
+    margin-left: 1.2rem;
+}
+
+.player-buttons {
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.fa-backward-step {
+    margin-right: 1rem;
+}
+
+.fa-forward-step {
+    margin-left: 1rem;
+}
+
+.song-progression {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.song-rule {
+    height: 3px;
+    border-radius: 70px;
+    border: solid 2px gray;
+    width: 70%;
+}
+
+.song-progression>h3 {
+    color: white;
+    font-size: .7rem;
+}
+
+
 
 
 
