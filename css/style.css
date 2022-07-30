@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
 }
 
 
@@ -28,6 +27,12 @@ img {
 
 .row {
     flex-direction: row;
+}
+
+
+body {
+    font-family: "Poppins";
+    overflow-x: hidden;
 }
 
 
@@ -283,14 +288,51 @@ footer {
 }
 
 .playing-now {
-    width: 30%;
-    height: 50%;
+    width: calc(100% / 3);
+    height: 100%;
+    border: solid 3px red;
+    align-items: center;
+    padding-left: .5rem;
+    color: white;
 }
 
+.playing-now h5 {
+    color: gray;
+    font-size: .7rem;
+}
+
+
 .playing-now>img {
-    height: 100%;
+    height: 60%;
     margin-right: .6rem;
 }
+
+
+.player-commands {
+    width: calc(100% / 3);
+    height: 100%;
+    border: solid 3px red;
+    align-items: center;
+}
+
+
+
+.volume-inputs {
+    width: calc(100% / 3);
+    height: 100%;
+    border: solid 3px red;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -303,7 +345,7 @@ footer {
 
 
 /*** MEDIUM screen ***/
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 1024px) {
     .card {
         width: calc(100% / 4);
     }
@@ -324,7 +366,7 @@ footer {
 
 
 /*** SMALL screen ***/
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 768px) {
     .card {
         width: calc(100% / 2);
     }
@@ -343,7 +385,7 @@ footer {
 
 
 /*** EXTRA-SMALL screen ***/
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 480px) {
     .card {
         width: calc(100% / 2);
     }
