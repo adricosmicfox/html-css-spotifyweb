@@ -325,8 +325,12 @@ footer {
     padding-right: .2rem;
 }
 
-.player-buttons>div {
-    margin-left: 1.2rem;
+#div-backward {
+    margin-left: 1rem;
+}
+
+#div-forward {
+    margin-right: 1rem;
 }
 
 .player-buttons {
@@ -377,7 +381,6 @@ footer {
     color: white;
     margin-right: .7rem;
 }
-
 
 
 
