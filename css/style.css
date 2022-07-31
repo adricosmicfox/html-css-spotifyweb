@@ -285,14 +285,14 @@ footer {
     width: 100vw;
     height: 100px;
     background-color: #282828;
+    padding-left: .8rem;
+    padding-right: .8rem;
 }
 
 .playing-now {
     width: calc(100% / 3);
     height: 100%;
-    border: solid 3px red;
     align-items: center;
-    padding-left: .8rem;
     color: white;
 }
 
@@ -316,7 +316,6 @@ footer {
 .player-commands {
     width: calc(100% / 3);
     height: 100%;
-    border: solid 3px red;
     align-items: center;
     justify-content: center;
 }
@@ -338,7 +337,6 @@ footer {
 
 .player-buttons {
     align-items: center;
-    margin-bottom: 1rem;
 }
 
 .fa-backward-step {
@@ -367,18 +365,24 @@ footer {
     font-size: .7rem;
 }
 
-
-
-
-
 .volume-inputs {
     width: calc(100% / 3);
     height: 100%;
-    border: solid 3px red;
     align-items: center;
-
+    justify-content: flex-end;
 }
 
+.volume-bar {
+    height: 3px;
+    border-radius: 70px;
+    border: solid 2px gray;
+    width: 30%;
+}
+
+.volume-inputs>i {
+    color: white;
+    margin-right: .7rem;
+}
 
 
 
